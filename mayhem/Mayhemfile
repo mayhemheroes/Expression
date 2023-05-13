@@ -1,0 +1,8 @@
+project: Expression
+target: fuzz-expression
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /release/ExpressionFuzz
+    libfuzzer: true
